@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="245.0" prefWidth="425.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="clientGUI.EkrutFrameController">
+   <children>
+      <Button id="btnExit" fx:id="btnExit" layoutX="279.0" layoutY="160.0" mnemonicParsing="false" onAction="#getExitBtn" prefHeight="38.0" prefWidth="61.0" text="Exit" textFill="#1a2c8f">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></Button>
+      <Button id="btnStudentInfo" fx:id="btnSend" layoutX="191.0" layoutY="160.0" mnemonicParsing="false" onAction="#Send" prefHeight="38.0" prefWidth="61.0" text="Send" textFill="#1a2c8f">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></Button>
+      <Label layoutX="158.0" layoutY="88.0" text="Subscriber ID:" textFill="#1a2c8f">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Label>
+      <TextField fx:id="idtxt" layoutX="287.0" layoutY="89.0" prefHeight="25.0" prefWidth="131.0" />
+      <ImageView fitHeight="187.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="https://www.ekrut.com/assets/global/ekrut-logo.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="164.0" layoutY="22.0" text="To show the info please fill" textFill="#1a2c8f">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
